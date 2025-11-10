@@ -1,6 +1,6 @@
 .maintitle{
     font-size: 36px; text-align: center; font-family: "Raleway", sans-serif; font-weight: 200;
-    background: url(food.jpg); background-position: center; background-size: cover;
+    background: url(resources_media/food.jpg); background-position: center; background-size: cover;
     flex: 1 1 300px; height:auto; position: relative; display: flex; align-items: center; 
     width:100%; height:300px; color: white
 }
@@ -20,7 +20,7 @@
 
 
 .locationleft, .locationright{
-    border: 3px solid #3C4F1C; border-radius: 30px; font-size: 20px; background: white url(download.jpg);   font-family: "Raleway", sans-serif; font-weight: 200; flex: 1 1 300px; height:auto; display:flex; flex-direction: column;
+    border: 3px solid #3C4F1C; border-radius: 30px; font-size: 20px; background: white url(resources_media/download.jpg);  font-family: "Raleway", sans-serif; font-weight: 200; flex: 1 1 300px; height:auto; display:flex; flex-direction: column;
     padding:1rem; max-width: 400px; margin: 10px;
 }
 
@@ -95,11 +95,6 @@ a:hover{
     transition: all 0.6s ease;
 }
 
-
-
-
-/*Header*/
-
 /* - - - global setting - - - */
 * {
  box-sizing: border-box;
@@ -134,7 +129,8 @@ body {
 }
 .donate-button {
  background-color: #D85D48;
- color: white; text decoration: none;
+ color: white; 
+ text-decoration: none;
  border: none;
  padding: 0.5rem 1.2rem;
  border-radius: 999px;
@@ -306,29 +302,29 @@ footer {
 }
 
 /*--tablet breakout resources & location--*/
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
     .maintitle{
     font-size: 42px; text-align: center; font-family: "Raleway", sans-serif; font-weight: 300;
     background: url(food.jpg); background-position: center; background-size: cover;
     flex: 1 1 768px; height:auto; position: relative; display: flex; align-items: center; 
     width:100%; height:300px; justify-content: center;
-}
+    }
 
 
-.resourceright, .resourceleft{
+    .resourceright, .resourceleft{
     border: 1px solid black; flex:1 1 45%; height:auto;
      max-width: 800px; flex-direction: column; padding:1rem;
     border-radius: 30px; background-color: #efe2ce; font-family: "Raleway", sans-serif; font-weight: 200; 
-}
+    }
 
-.locationleft, .locationright{
+    .locationleft, .locationright{
     border: 1px solid black; border-radius: 30px; font-size: 20px; background: white url(download.jpg);   font-family: "Raleway", sans-serif; font-weight: 200; flex: 1 1 768px; height:auto;
     padding:1rem; max-width: 500px; flex: 1 1 45%; gap:1rem; 
-}
+    }
 
-.extra{
+    .extra{
     width:90%; margin-bottom: 20px;
-}
+    }
 
 
 
@@ -337,97 +333,98 @@ footer {
 
 /*--desktop resources & location --*/
 @media screen and (min-width:1028px){
-    .maintitle{
+    .maintitle {
     font-size: 42px; text-align: center; font-family: "Raleway", sans-serif; font-weight: 300;
     background: url(food.jpg); background-position: center; background-size: cover;
     flex: 1 1 1028px; height:auto; position: relative; display: flex; align-items: center; 
     width:100%; height:300px; justify-content: center;
-}
-.resourceright, .resourceleft{
+    }
+    .resourceright, .resourceleft {
     border: 1px solid black; flex:1 1 45%; height:auto;
      max-width: 800px; flex-direction: column; padding:10px;
     border-radius: 30px; background-color: #efe2ce; font-family: "Raleway", sans-serif; font-weight: 200;
-}
+    }
 
-.locationleft, .locationright{
+    .locationleft, .locationright {
     border: 1px solid black; border-radius: 30px; font-size: 20px; background: white url(download.jpg);   font-family: "Raleway", sans-serif; font-weight: 200; flex: 1 1 1028px; height:auto;
     padding:1rem; max-width: 800px; flex: 1 1 45%; gap:2rem;
-}
+    }
 
-.firstresource, .thirdresource, .fifthresource{
+    .firstresource, .thirdresource, .fifthresource{
     display: flex; flex-wrap:wrap; gap:1rem; justify-content: center;
     font-family: "Raleway", sans-serif; font-weight: 200; align-items: stretch;
     flex-direction: row;
-}
+    }
 
-.secondresource, .fourthresource{
+    .secondresource, .fourthresource{
     display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;
     font-family: "Raleway", sans-serif; font-weight: 200; align-items: stretch;
     flex-direction: row-reverse;
-}
+    }
 
-.extra{
+    .extra{
     width:90%; margin-bottom: 20px;
-}
+    }
 }
 
 
 /* - - - tablet breakout header - - - */
 @media screen and (min-width: 768px) {
- .header-bottom {
-  justify-content: center;
- }
- /* hamburger menu hidden for tablet */
- .hamburger {
-  display: none;
- }
- .main-nav {
-  display: block;
-  width: 100%;
- }
- .main-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  justify-content: space-between;
- }
-.main-nav a {
- color: white;
- text-decoration: none;
- font-weight: 600;
- letter-spacing: 0.03em;
- padding: 0.4rem 0.75rem;
- border-radius: 0.4rem;
- transition:
-  background-color 0.2s ease,
-  color 0.2s ease,
-  transform 0.2s ease,
-  padding-left 0.2s ease,
-  padding-right 0.2s ease;
+    .header-bottom {
+    justify-content: center;
+    }
+    /* hamburger menu hidden for tablet */
+    .hamburger {
+    display: none;
+    }
+    .main-nav {
+    display: block;
+    width: 100%;
+    }
+    .main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    }
+    .main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 0.4rem 0.75rem;
+    border-radius: 0.4rem;
+    transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    padding-left 0.2s ease,
+    padding-right 0.2s ease;
+    }
+    .main-nav a:hover {
+    background-color: #FFFFFF;
+    color: #3C4F1C;
+    transform: translateX(3px) scale(1.05);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 0 0 8px rgba(60, 79, 28, 0.4);
+    }
+    .side-menu,
+    .menu-overlay {
+    display: none; /* not visible on larger screens */
+    }
+    .footer-links {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    }
 }
-.main-nav a:hover {
- background-color: #FFFFFF;
- color: #3C4F1C;
- transform: translateX(3px) scale(1.05);
- padding-left: 1rem;
- padding-right: 1rem;
- box-shadow: 0 0 8px rgba(60, 79, 28, 0.4);
-}
- .side-menu,
- .menu-overlay {
-  display: none; /* not visible on larger screens */
- }
- .footer-links {
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 900px;
-  margin: 0 auto;
- }
-
 /* - - - desktop breakout nav menu - - - */
 @media screen and (min-width: 1024px) {
- .main-nav ul {
-  justify-content: space-evenly;
- }                                                 }
-
+    .main-nav ul {
+    justify-content: space-evenly;
+    }
+}
+}
