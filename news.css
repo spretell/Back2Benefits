@@ -316,11 +316,9 @@ footer {
 }
 /* - - - desktop breakout - - - */
 @media screen and (min-width: 1024px) {
-    .header-bottom {
-    justify-content: center;
-    }
+    
     .main-nav ul {
-    display: flex;
+    justify-content: space-evenly;
     }
 
     .news-item {

@@ -364,12 +364,13 @@ footer {
 } 
 /* - - - desktop breakout - - - */
 @media screen and (min-width: 1024px) {
-    .header-bottom {
+    /* .header-bottom {
     justify-content: center;
-    }
+    } */
     .main-nav ul {
-    display: flex;
+    justify-content: space-evenly;
     }
+    
     h1 {
     font-size: 40px;
     }
