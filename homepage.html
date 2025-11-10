@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Back2Benefits</title>
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- css file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <!-- top of header (sand) -->
+    <div class="header-top">
+      <div class="logo-group">
+        <!-- name logo -->
+        <img src="media/back2benefitslogo1.png" alt="Back2Benefits logo" class="logo-word">
+        <!-- icon logo -->
+        <img src="media/back2benefitslogo2.png" alt="Back2Benefits icon" class="logo-icon">
+      </div>
+      <a href="donate.html" class="donate-button">DONATE</a>
+    </div>
+
+    <!-- bottom of header (green) -->
+    <div class="header-bottom">
+      <!-- hamburger menu (mobile only) -->
+      <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+        <span class="hamburger-lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span class="hamburger-title">MENU</span>
+      </button>
+
+      <!-- nav bar (tablet and desktop only) -->
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="volunteer-events.html">Volunteering &amp; Events</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="donate.html">Donations</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- mobile slide-out menu -->
+  <nav class="side-menu" aria-label="Mobile navigation">
+    <button class="close-menu" aria-label="Close navigation menu">&times;</button>
+
+    <!-- links -->
+    <ul>
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="volunteer-events.html">Volunteering &amp; Events</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="donate.html">Donations</a></li>
+      <li><a href="news.html">News</a></li>
+    </ul>
+  </nav>
+  <div class="menu-overlay"></div>
+
+  <main>
+    <!-- video -->
+    <section class="hero">
+      <video autoplay muted loop playsinline class="background-video">
+        <source src="media/grocery.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <!-- title overlay -->
+      <div class="hero-overlay">
+        <h1>Back2Benefits</h1>
+      </div>
+      <!-- mission overlay-->
+      <div class="hero-description">
+        <p>
+          Our mission is to support individuals and communities who have recently been affected
+          by the SNAP benefits suspension. Join us to help families through our resources and support.
+        </p>
+      </div>
+    </section>
+
+    <section class="snap-importance">
+      <!-- snap cards -->
+      <div class="snap-top">
+        <div class="snap-question">
+          <h2>Why are SNAP benefits important?</h2>
+        </div>
+
+        <div class="snap-answer">
+          <p>
+            SNAP benefits help millions of people access food when their income is not enough.
+            When benefits are delayed, reduced, or suspended, families are forced into difficult situations.
+          </p>
+        </div>
+      </div>
+
+      <!-- blockquote -->
+      <div class="snap-bottom">
+        <h3>Hunger in America is a crisis.</h3>
+          <blockquote>
+            “47 million people face hunger in the U.S.—including 13 million children.
+            Hunger touches every U.S. community, including yours.” - Feeding America
+          </blockquote>
+          <p>
+            With SNAP benefits being suspended, millions across the country are fighting hunger and hardship. Together, we can help.
+          </p>
+      </div>
+    </section>
+
+    <!-- about us section -->
+    <section class="about-preview">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          Back2Benefits is a nonprofit organization that helps and connects people with local food
+          pantries, resources, and volunteering events against this food crisis.
+        </p>
+        <a href="about.html" class="learn-more-button">Learn More</a>
+      </div>
+
+      <div class="about-image">
+        <img src="media/aboutus.jpg" alt="food box">
+      </div>
+    </section>
+
+    <!-- welcome page end quote -->
+    <section class="join-quote">
+      <p>Join Us to End Hunger in America</p>
+    </section>
+
+    <!-- action links -->
+    <section class="action-buttons">
+      <a href="donate.html" class="action-button">
+        <div class="action-icon">
+        <img src="media/kindness.png" alt="donate icon">
+        </div>
+        <span>Donate</span>
+      </a>
+
+      <a href="resources.html" class="action-button">
+        <div class="action-icon">
+        <img src="media/policy-privacy.png" alt="Resources Icon">
+        </div>
+        <span>Resources</span>
+      </a>
+
+      <a href="volunteer-events.html" class="action-button">
+        <div class="action-icon">
+        <img src="media/volunteer.png" alt="Volunteer Icon">
+        </div>
+        <span>Volunteer</span>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <nav class="footer-nav" aria-label="Footer pages">
+        <!-- 5 linked pages -->
+        <h3>Pages</h3>
+        <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="welcome.html">Welcome</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="volunteer-events.html">Volunteering &amp; Events</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="donate.html">Donations</a></li>
+        </ul>
+      </nav>
+
+      <!-- fake social media links -->
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- copyright -->
+    <div class="footer-copy">
+      <p>&copy; 2025 Back2Benefits. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- java link -->
+  <script src="script.js"></script>
+</body>
+</html>
