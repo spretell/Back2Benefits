@@ -1,3 +1,16 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 .maintitle{
     font-size: 36px; text-align: center; font-family: "Raleway", sans-serif; font-weight: 200;
     background: url(resources_media/food.jpg); background-position: center; background-size: cover;
@@ -43,7 +56,7 @@
     flex-direction: row-reverse; gap: 2rem; margin-bottom: 2rem ;
 }
 
-a, .resourceheader{
+.resourceheader a {
     text-decoration: none; color: #d85d48; font-size: 17px;
     font-family: "Raleway", sans-serif; font-weight: 200;
     margin-top: 0; margin-bottom: 5px; font-weight: bold;
@@ -289,6 +302,8 @@ footer {
  color: #5E6C58;
  text-decoration: none;
  font-size: 0.9rem;
+ font-weight: 400;
+ margin-bottom: 0;
 }
 .footer-nav a:hover,
 .footer-social a:hover {
@@ -417,7 +432,7 @@ footer {
     .footer-links {
     flex-direction: row;
     justify-content: space-between;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     }
 }

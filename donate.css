@@ -1,3 +1,7 @@
+main {
+  flex: 1;
+}
+
 /* - - - global setting - - - */
 * {
  box-sizing: border-box;
@@ -13,6 +17,8 @@ html, body {
     overflow-x: hidden;
 }
 body {
+ display: flex;
+ flex-direction: column;
  font-family: "Raleway", sans-serif;
  line-height: 1.5;
  background-color: white;
@@ -340,7 +346,7 @@ footer {
     .footer-links {
     flex-direction: row;
     justify-content: space-between;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     }
     .form-container {
@@ -371,14 +377,17 @@ footer {
     justify-content: space-evenly;
     }
     
-    h1 {
+    main h1 {
     font-size: 40px;
     }
-    h2 {
+    main h2 {
     font-size: 30px;
     }
-    p {
+    main p {
     font-size: 20px;
+    }
+    footer p {
+      font-size: 0.8rem;
     }
     form {
     max-width: none;
