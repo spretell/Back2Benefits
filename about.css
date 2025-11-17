@@ -571,6 +571,6 @@ footer {
   }
 
   .about-summary, .about-stats, .mission-vision, .about-team {
-    max-width: 10000px;
+    max-width: 1000px;
   }
 }
